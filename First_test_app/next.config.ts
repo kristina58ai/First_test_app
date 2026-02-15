@@ -4,7 +4,12 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
     // Эта настройка убирает ошибку с мобильной библиотекой
-    config.resolve.fallback = { fs: false, net: false, tls: false };
+    config.resolve.fallback = {
+      fs: false,
+      net: false,
+      tls: false,
+      "@react-native-async-storage/async-storage": false,
+    };
     config.resolve.alias = {
       ...config.resolve.alias,
       '@react-native-async-storage/async-storage': false,
