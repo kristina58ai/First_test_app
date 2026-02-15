@@ -1,0 +1,20 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "First_test_app",
+    "homeUrl": "https://first-test-app-tau.vercel.app",
+    "iconUrl": "https://first-test-app-tau.vercel.app/icon.png",
+    "splashImageUrl": "https://first-test-app-tau.vercel.app/icon.png",
+    "splashBackgroundColor": "#000000",
+    "buttonTitle": "Open",
+    "subtitle": "OnchainKit Mini App on Base",
+    "description": "Mini App built with create-onchain, OnchainKit and Farcaster.",
+    "primaryCategory": "utility",
+    "tags": ["base", "onchainkit", "wallet", "miniapp"]
+  }
+}
